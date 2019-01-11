@@ -13,4 +13,5 @@ describe('Page opening', function () {
         assert.equal(title, 'Bug Tracker', 'Title is incorrect');
     })
 
+
 });
