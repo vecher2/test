@@ -7,6 +7,7 @@ describe('Page opening', function () {
         let title = browser.getTitle();
         assert.equal(title, 'Bug Tracker', 'Title is incorrect');
     })
+
     it('get header title', function(){
         let title = browser.getTitle();
         assert.equal(title, 'Bug Tracker', 'Title is incorrect');
