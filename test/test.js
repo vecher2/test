@@ -12,6 +12,6 @@ describe('Page opening', function () {
         let title = browser.getTitle();
         assert.equal(title, 'Bug Tracker', 'Title is incorrect');
     })
-
+    const a = 1;
 
 });
